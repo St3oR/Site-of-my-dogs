@@ -1,0 +1,60 @@
+#blackie-pop {
+    display: none;
+    position: fixed;
+    width: 500px; /* adjust as needed */
+    height: 500px; /* adjust as needed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+    border: 5px solid grey;
+    border-radius: 12px;
+    padding: 20px;
+    z-index: 1000; /* to ensure it appears above other content */
+}
+
+#blackie-pop img{
+    max-height: 80%;
+    max-width: 70%; /* Ensure image is not wider than pop-up */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Removes extra space below image */
+    margin: 0 auto; /* Center image if smaller than pop-up */
+}
+
+#blackieCls {
+    padding: 5px 10px;
+    margin: 40px auto;
+    display: block;
+
+}
+
+
+
+#xena-pop {
+    display: none;
+    position: fixed;
+    width: 500px; /* adjust as needed */
+    height: 500px; /* adjust as needed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+    border: 5px solid grey;
+    padding: 20px;
+    z-index: 1000; /* to ensure it appears above other content */
+}
+
+#xena-pop img{
+    max-height: 80%; /* Ensure image is not wider than pop-up */
+    max-width: 70%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Removes extra space below image */
+    margin: 0 auto; /* Center image if smaller than pop-up */
+}
+
+#xenaCls {
+    padding: 5px 10px;
+    margin: 40px auto;
+    display: block;
+
+}

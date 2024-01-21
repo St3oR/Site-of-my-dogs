@@ -1,0 +1,44 @@
+* {
+    /* background-color: white;   WHY DOES THIS OVERRIDE THE BACKGROUND COLOR BELOW*/ 
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
+}
+
+
+.header-container {
+    background-color: #1F2937;
+    justify-content: space-around;
+
+    display: flex;
+    align-items: center;
+    flex: 1;
+    white-space: nowrap;
+    height: 50px;
+}
+
+
+.header-logo {
+    color: #F9FAF8;
+    font: 24px;
+    font-weight: 700;
+    margin-left: 160px;
+    margin-right: 10px;
+    flex: 2;
+}
+
+.header-link-container {
+    display: flex;
+    flex: 1;
+    margin-right: 100px;
+    justify-content: space-around;
+}
+
+
+.header-link-one,
+.header-link-two,
+.header-link-three {
+    font: 18px;
+    color: #E5E7EB;
+    margin: 0 10px;
+}
